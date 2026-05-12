@@ -2,8 +2,9 @@
 // Each member has a name, role, department, year, skills, and social links
 import Tejas from "../assets/Tejas.png"
 import Nikhil from "../assets/Nikhil.jpeg"
-import Triloak from "../assets/Triloak.png"
+import Triloak from "../assets/Triloak.jpg"
 import Pallavi from "../assets/pallavi.png"
+import Mohith from "../assets/Mohith.jpg
 
 
 
@@ -74,7 +75,7 @@ export const teamData = [
     year: "1st Year",
     category: "Media",
     skills: ["VideoEditing","Posters","CAD"],
-    image: null,
+    image: Mohith,
     linkedin: "https://www.linkedin.com/in/mohith-n-b9437339a/",
    },
    {
