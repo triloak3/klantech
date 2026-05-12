@@ -26,11 +26,11 @@ export const teamData = [
   {
     id: 2,
     name: "Nehan",
-    role: "Club President",
+    role: "Club Captain",
     department: "Mechanical Engineering",
     year: "3rd Year",
     category: "Core Team",
-    skills: ["Leadership", "CAD", "Project Management"],
+    skills: ["Leadership", "Design", "Project Management"],
     image: null,
     linkedin: "#",
    },
