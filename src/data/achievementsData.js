@@ -11,9 +11,9 @@ export const achievementsData = [
   },
   {
     id: 3,
-    title: "MAE BAJA 800 SEASON 2",
+    title: "FMAE BAJA 800 SEASON 2",
     description: "We won the Overall Championship in FMAE BAJA Season 2 with our custom built 800cc vehicle, excelling in performance, durability, and handling on extreme terrain. This achievement reflects our team's engineering excellence and drives our excitement for the upcoming IKR 2026 Electric Go-Kart project.",
-    date: "October 2024",
+    date: "December 2023",
     category: "Competition",
     icon: "trophy",
   },
