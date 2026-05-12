@@ -4,7 +4,7 @@ import Tejas from "../assets/Tejas.png"
 import Nikhil from "../assets/Nikhil.jpeg"
 import Triloak from "../assets/Triloak.jpg"
 import Pallavi from "../assets/pallavi.png"
-import Mohith from "../assets/Mohith.jpg
+import Mohith from "../assets/Mohith.jpg"
 
 
 
