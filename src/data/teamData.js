@@ -100,5 +100,29 @@ export const teamData = [
     image: Pallavi,
     linkedin: "https://www.linkedin.com/in/pallavi-h-m-00b606386/",
    },
+
+   {
+    id: 10,
+    name: "Adishankar",
+    role: "Design Team",
+    department: "Mechanical Engineering",
+    year: "1st Year",
+    category: "Mechanical",
+    skills: ["Fabrication","content creation","CAD"],
+    image: Adi,
+    linkedin: "https://www.linkedin.com/in/pallavi-h-m-00b606386/",
+   },
+
+       {
+    id: 10,
+    name: "Pushya",
+    role: "Fabrication Team",
+    department: "Mechanical Engineering",
+    year: "1st Year",
+    category: "Media",
+    skills: ["Fabrication","Welding","CAD"],
+    image: Pushya,
+    linkedin: "https://www.linkedin.com/in/pushya-abhinethri-pradeep-003337387?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+   },
   
 ];
