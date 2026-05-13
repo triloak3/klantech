@@ -7,7 +7,7 @@ import Pallavi from "../assets/pallavi.png"
 import Mohith from "../assets/Mohith.jpg"
 import Pushya from "../assets/Pushya.jpg"
 import Adi from "../assets/Adi.jpg"
-
+import Tanvi from "../assets/tanvi.jpeg"
 
 
 
@@ -116,7 +116,7 @@ export const teamData = [
    },
 
        {
-    id: 10,
+    id: 11,
     name: "Pushya",
     role: "Fabrication Team",
     department: "Mechanical Engineering",
@@ -125,6 +125,17 @@ export const teamData = [
     skills: ["Fabrication","Welding","CAD"],
     image: Pushya,
     linkedin: "https://www.linkedin.com/in/pushya-abhinethri-pradeep-003337387?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+   },
+   {
+    id: 12,
+    name: "Tanvi",
+    role: "PR Team",
+    department: "Mechanical Engineering",
+    year: "1st Year",
+    category: "Media",
+    skills: ["VideoEditing","Posters","Photography"],
+    image: Tanvi,
+    linkedin: "#",
    },
   
 ];
