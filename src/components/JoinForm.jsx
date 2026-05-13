@@ -32,12 +32,48 @@ export default function JoinForm() {
   }
 
   // Handle form submission
-  function handleSubmit(e) {
-    e.preventDefault();
-    // In a real app, you'd send this data to a backend
-    console.log("Form submitted:", formData);
+  async function handleSubmit(e) {
+  e.preventDefault();
+
+  const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSfx-ATv_Wf_vfuibzSvAdhBQWgBD8ANu-2HoJiwvMtlr4tHyw/formResponse"; 
+  // 🔴 Replace FORM_ID
+
+  const formBody = new FormData();
+
+  // 🔴 Replace entry IDs below with YOUR actual ones
+  formBody.append("entry.228625820", formData.name);
+  formBody.append("entry.167572693", formData.email);
+  formBody.append("entry.1055688563", formData.phone);
+  formBody.append("entry.1959986883", formData.department);
+  formBody.append("entry.1093711123", formData.year);
+  formBody.append("entry.1772693059", formData.interest);
+  formBody.append("entry.72481379", formData.message);
+
+  try {
+    await fetch(formURL, {
+      method: "POST",
+      mode: "no-cors", // IMPORTANT
+      body: formBody,
+    });
+
     setSubmitted(true);
+
+    // Optional reset
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      department: "",
+      year: "",
+      interest: "",
+      message: "",
+    });
+
+  } catch (error) {
+    console.error("Error:", error);
   }
+}
+
 
   // Show success message after submission
   if (submitted) {
