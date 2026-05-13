@@ -112,7 +112,7 @@ export const teamData = [
     category: "Mechanical",
     skills: ["Fabrication","content creation","CAD"],
     image: Adi,
-    linkedin: "https://www.linkedin.com/in/pallavi-h-m-00b606386/",
+    linkedin: "#",
    },
 
        {
@@ -121,7 +121,7 @@ export const teamData = [
     role: "Fabrication Team",
     department: "Mechanical Engineering",
     year: "1st Year",
-    category: "Media",
+    category: "Mechanical",
     skills: ["Fabrication","Welding","CAD"],
     image: Pushya,
     linkedin: "https://www.linkedin.com/in/pushya-abhinethri-pradeep-003337387?utm_source=share_via&utm_content=profile&utm_medium=member_android",
@@ -135,6 +135,18 @@ export const teamData = [
     category: "Media",
     skills: ["VideoEditing","Posters","Photography"],
     image: Tanvi,
+    linkedin: "#",
+   },
+
+    {
+    id: 12,
+    name: "Arush Fernandes",
+    role: "Fabrication Team",
+    department: "Mechanical Engineering",
+    year: "1st Year",
+    category: "Mechanical",
+    skills: ["Fabrication","Welding","CAD"],
+    image: Pushya,
     linkedin: "#",
    },
   
