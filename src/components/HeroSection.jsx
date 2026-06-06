@@ -51,12 +51,7 @@ export default function HeroSection() {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <Link
-              to="/join"
-              className="btn-primary-gradient px-6 py-3 rounded-lg flex items-center gap-2"
-            >
-              Join the Club <ChevronRight size={18} />
-            </Link>
+            
             <Link
               to="/projects"
               className="px-6 py-3 rounded-lg border border-border text-foreground font-heading font-semibold tracking-wide uppercase text-sm hover:border-primary/50 hover:bg-primary/5 transition-all flex items-center gap-2"
