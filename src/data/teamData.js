@@ -8,7 +8,7 @@ import Mohith from "../assets/Mohith.jpg"
 import Pushya from "../assets/Pushya.jpg"
 import Adi from "../assets/Adi.jpg"
 import Tanvi from "../assets/tanvi.jpeg"
-import Arush from "../assets/Arush.jpeg
+import Arush from "../assets/Arush.jpeg"
 
 
 
