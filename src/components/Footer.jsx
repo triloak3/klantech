@@ -41,7 +41,7 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-semibold text-foreground mb-3">Explore</h4>
             <div className="space-y-2">
-              {["Achievements", "Gallery", "Join Us"].map((link) => (
+              {["Achievements", "Gallery"].map((link) => (
                 <Link
                   key={link}
                   to={`/${link.toLowerCase().replace(" ", "")}`}
