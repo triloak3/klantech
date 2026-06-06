@@ -12,7 +12,7 @@ const navLinks = [
   { name: "Achievements", path: "/achievements" },
   { name: "Events", path: "/events" },
   { name: "Gallery", path: "/gallery" },
-  { name: "Join Us", path: "/join" },
+
 ];
 
 export default function Navbar() {
