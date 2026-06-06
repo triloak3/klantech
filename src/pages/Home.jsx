@@ -132,18 +132,7 @@ export default function Home() {
       </section>
 
       {/* Join CTA */}
-      <section className="section-padding bg-secondary">
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="racing-stripe mx-auto mb-6" />
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Ready to Join the <span className="gradient-text">Race?</span>
-          </h2>
-          <p className="text-muted-foreground mb-8">
-            Be part of a team that designs, builds, and competes. No experience required — just passion.
-          </p>
-          
-        </div>
-      </section>
+      
     </div>
   );
 }
