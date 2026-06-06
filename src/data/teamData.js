@@ -8,6 +8,7 @@ import Mohith from "../assets/Mohith.jpg"
 import Pushya from "../assets/Pushya.jpg"
 import Adi from "../assets/Adi.jpg"
 import Tanvi from "../assets/tanvi.jpeg"
+import Arush from "../assets/Arush.jpeg
 
 
 
@@ -146,7 +147,7 @@ export const teamData = [
     year: "1st Year",
     category: "Mechanical",
     skills: ["Fabrication","Welding","CAD"],
-    image: Pushya,
+    image: Arush,
     linkedin: "#",
    },
   
