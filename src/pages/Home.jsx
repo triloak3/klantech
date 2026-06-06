@@ -141,9 +141,7 @@ export default function Home() {
           <p className="text-muted-foreground mb-8">
             Be part of a team that designs, builds, and competes. No experience required — just passion.
           </p>
-          <Link to="/join" className="btn-primary-gradient px-8 py-3 rounded-lg text-sm inline-block">
-            Join Klantech Autosport
-          </Link>
+          
         </div>
       </section>
     </div>
